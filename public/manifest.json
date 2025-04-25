@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Hello World Extension",
-  "description": "A simple Chrome extension that displays Hello World",
+  "name": "Page Word Counter",
+  "description": "Counts the number of words on the current webpage",
   "version": "1.0",
   "action": {
     "default_popup": "popup.html",
@@ -15,5 +15,7 @@
     "16": "icon16.png",
     "48": "icon48.png",
     "128": "icon128.png"
-  }
+  },
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"]
 }
