@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Page Word Counter",
-  "description": "Counts the number of words on the current webpage",
+  "name": "Web Utility Extension",
+  "description": "Word counter and URL saver for web pages",
   "version": "1.0",
   "action": {
     "default_popup": "popup.html",
@@ -16,6 +16,6 @@
     "48": "icon48.png",
     "128": "icon128.png"
   },
-  "permissions": ["activeTab", "scripting"],
+  "permissions": ["activeTab", "scripting", "storage"],
   "host_permissions": ["<all_urls>"]
 }
